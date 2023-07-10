@@ -1,8 +1,6 @@
 import React from 'react'
-import { NavLink, Outlet, useOutlet, useResolvedPath } from 'react-router-dom' 
+import { NavLink, Outlet } from 'react-router-dom' 
 export default function Home() {
-  console.log(useOutlet());
-  console.log(useResolvedPath('/news'));
   return (
     <div>
       <h3>Home组件内容</h3>
