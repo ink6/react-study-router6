@@ -22,6 +22,7 @@ export default function App() {
 						<div className="panel-body">
 							<Routes>
 								<Route path="/about" element={ <About />} />
+								{/* <Route path="/ABOUT" caseSensitive element={ <About />} /> */}
 								<Route path="/home" element={ <Home />} />
 								<Route path="/" element={ <Navigate to="/about" />} />
 							</Routes>
